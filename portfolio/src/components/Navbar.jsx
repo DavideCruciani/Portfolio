@@ -3,10 +3,10 @@ import './Navbar.css'
 
 const Navbar = ({logo}) => {
   return (
-    <nav className='w-full h-20 bg-transparent fixed flex justify-between py-5 px-20'>
+    <nav className='w-full h-20 bg-transparent fixed top-0 left-0 right-0 flex justify-between py-5 px-20'>
       <div className='h-full'>
         <a href="#">
-          <img className='h-full' src={logo} alt="Logo" />
+          <img className='h-full animate-spin' src={logo} alt="Logo" />
         </a>
       </div>
       <div className='flex items-center'>
