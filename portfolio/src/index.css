@@ -4,6 +4,7 @@
 
 html {
   scroll-behavior: smooth;
+  background-color: #3B82F6;
 }
 
 body::before {
