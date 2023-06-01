@@ -1,4 +1,5 @@
 import React from 'react'
+import {FiArrowDown} from 'react-icons/fi'
 
 const Hero = () => {
   return (
@@ -6,6 +7,9 @@ const Hero = () => {
       <div className='container mx-auto px-4 text-center'>
         <h3 className='text-white font-Anton text-5xl mt-32 mb-4'>Davide Cruciani</h3>
         <h1 className='text-white font-Anton text-9xl'>Frontend Developer</h1>
+        <a href="#skills" className='bg-white inline-block rounded-full p-3 mt-12 animate-bounce'>
+          <FiArrowDown size={30} color='#3B82F6'/>
+        </a>
       </div>
     </section>
   )
