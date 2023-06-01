@@ -18,7 +18,7 @@ const Navbar = ({logo}) => {
         </a>
       </div>
       <div className='flex items-center'>
-        <ul className='hidden xl:flex gap-8 text-white font-Anton ul-list uppercase text-xl'>
+        <ul className='hidden xl:flex gap-8 text-white font-Anton ul-list uppercase text-lg'>
           <li><a className='hover:text-gray-200' href="#">Home</a></li>
           <li><a className='hover:text-gray-200' href="#skills">Skills</a></li>
           <li><a className='hover:text-gray-200' href="#progetti">Progetti</a></li>

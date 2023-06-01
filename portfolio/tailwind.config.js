@@ -12,6 +12,7 @@ export default {
     },
     fontFamily: {
       'Anton': ['Anton', 'sans-serif'],
+      'Marker': ['Permanent Marker', 'cursive'],
     }
     
   },

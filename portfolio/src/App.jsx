@@ -7,6 +7,7 @@ import Contattami from "./components/Contattami"
 import Footer from "./components/Footer"
 /* IMMAGINI */
 import logo from "./assets/logo.png"
+import illustrazione from './assets/Studying.svg'
 
 
 function App() {
@@ -14,7 +15,7 @@ function App() {
     <>
     <Navbar logo={logo}/>
     <Hero />
-    <Skills />
+    <Skills illustrazione={illustrazione}/>
     <Progetti />
     <Contattami />
     <Footer />
