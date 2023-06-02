@@ -29,6 +29,10 @@ const Skills = ({illustrazione}) => {
               <p className='text-white md:text-lg font-bold mt-3'>REACT</p>
             </div>
             <div className='text-center hover:scale-[1.1]'>
+              <i className="devicon-typescript-plain colored text-7xl sm:text-8xl md:text-9xl"></i>
+              <p className='text-white md:text-lg font-bold mt-3'>TYPESCRIPT</p>
+            </div>
+            <div className='text-center hover:scale-[1.1]'>
               <i className="devicon-github-original colored text-7xl sm:text-8xl md:text-9xl"></i>
               <p className='text-white md:text-lg font-bold mt-3'>GITHUB</p>
             </div>
@@ -39,10 +43,6 @@ const Skills = ({illustrazione}) => {
             <div className='text-center hover:scale-[1.1]'>
               <i className="devicon-tailwindcss-plain colored text-7xl sm:text-8xl md:text-9xl"></i>
               <p className='text-white md:text-lg font-bold mt-3'>TAILWIND</p>
-            </div>
-            <div className='text-center hover:scale-[1.1]'>
-              <i className="devicon-npm-original-wordmark colored text-7xl sm:text-8xl md:text-9xl"></i>
-              <p className='text-white md:text-lg font-bold mt-3'>NPM</p>
             </div>
           </div>
         </div>
