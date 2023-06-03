@@ -9,6 +9,8 @@ import Footer from "./components/Footer"
 import logo from "./assets/logo.png"
 import illustrazione from './assets/Studying.svg'
 import screenBMW from './assets/projects/Homepage-BMW.png'
+import screenFoodiebox from './assets/projects/Foodiebox.png'
+import screenSpaceTourism from './assets/projects/Space-tourism.png'
 
 
 function App() {
@@ -17,7 +19,7 @@ function App() {
     <Navbar logo={logo}/>
     <Hero />
     <Skills illustrazione={illustrazione}/>
-    <Progetti project1={screenBMW} />
+    <Progetti project1={screenBMW} project2={screenFoodiebox} project3={screenSpaceTourism} />
     <Contattami />
     <Footer />
     </>

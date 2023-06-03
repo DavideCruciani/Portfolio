@@ -17,7 +17,7 @@ const Skills = ({illustrazione}) => {
               <p className='text-white md:text-lg font-bold mt-3'>HTML5</p>
             </div>
             <div className='text-center hover:scale-[1.1]'>
-              <i class="devicon-css3-plain colored text-7xl sm:text-8xl md:text-9xl"></i>
+              <i className="devicon-css3-plain colored text-7xl sm:text-8xl md:text-9xl"></i>
               <p className='text-white md:text-lg font-bold mt-3'>CSS3</p>
             </div>
             <div className='text-center hover:scale-[1.1]'>
