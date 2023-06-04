@@ -28,7 +28,7 @@ const Navbar = ({logo}) => {
       <div className='xl:hidden z-[999]' onClick={handleNav}>
         {nav ? <AiOutlineClose className='cursor-pointer' size={30} color='white'/> : <AiOutlineMenu className='cursor-pointer' size={30} color='white'/>}
       </div>
-      <div className={nav ? 'fixed xl:hidden right-0 top-0 text-center p-4 w-1/2 h-full items-center bg-[#FFFFFF]/[.15] backdrop-blur-[20px] ease-in-out duration-300' : 'fixed xl:hidden top-0 text-center p-4 w-1/2 h-full items-center bg-[#FFFFFF]/[.15] backdrop-blur-[20px] right-[-100%] ease-in-out duration-300'}>
+      <div className={nav ? 'fixed xl:hidden right-0 top-0 text-center p-4 w-1/2 h-full items-center custom-blur ease-in-out duration-300' : 'fixed xl:hidden top-0 text-center p-4 w-1/2 h-full items-center custom-blur right-[-100%] ease-in-out duration-300'}>
         <ul className='flex flex-col gap-12 py-20 h-full w-full text-white font-Anton ul-list uppercase text-2xl'>
           <li><a className='hover:text-gray-200' href="#">Home</a></li>
           <li><a className='hover:text-gray-200' href="#skills">Skills</a></li>

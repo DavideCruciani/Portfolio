@@ -1,3 +1,14 @@
 .ul-list {
   text-shadow: 0px 0px 3px rgb(8, 47, 175);
 }
+
+.custom-blur {
+  background: hsla(0, 0%, 0%, 0.75);
+}
+
+@supports (backdrop-filter: blur(1rem)) {
+  .custom-blur {
+    background: hsla(0, 0%, 100%, 0.1);
+    backdrop-filter: blur(1rem);
+  }
+}
