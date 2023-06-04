@@ -16,7 +16,7 @@ const Footer = ({arrow}) => {
             </a>
           </div>
         </div>
-        <p className="text-white">Education illustration by <a href="https://storyset.com/people" className="text-blue-500" target="_blank" rel="noopener">Storyset</a></p>
+        <p className="text-white">Education illustration by <a href="https://storyset.com/education" className="text-blue-500" target="_blank" rel="noopener">Storyset</a></p>
       </div>
       
       </div>
