@@ -1,8 +1,9 @@
 import React from 'react'
+import './Skills.css'
 
 const Skills = ({illustrazione}) => {
   return (
-    <section className='bg-[url(src/assets/section2.svg)] bg-no-repeat bg-cover w-full h-screen' id='skills'>
+    <section className='skills-section bg-no-repeat bg-cover w-full h-screen' id='skills'>
       <div className='container h-full flex items-center mx-auto px-4'>
         
         <div className='w-full hidden xl:inline-block'>

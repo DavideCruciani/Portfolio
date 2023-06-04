@@ -1,8 +1,9 @@
 import React from 'react'
+import './Contattami.css'
 
 const Contattami = () => {
   return (
-    <section className='bg-[url(src/assets/testPurple.svg)] bg-no-repeat bg-cover w-full h-screen' id='contattami'>
+    <section className='contact-section bg-no-repeat bg-cover w-full h-screen' id='contattami'>
       <div className='container h-full flex items-center mx-auto px-4'>
           <form className='flex flex-col gap-3 mx-auto max-w-[600px] w-full' action="https://getform.io/f/8de1651c-4bc5-4435-9f7b-cc69853be0f6" method='POST'>
             <h1 className='text-white text-5xl sm:text-6xl md:text-7xl text-center font-Marker'>Contattami</h1>

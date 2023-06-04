@@ -12,13 +12,14 @@ import screenBMW from './assets/projects/Homepage-BMW.png'
 import screenFoodiebox from './assets/projects/Foodiebox.png'
 import screenSpaceTourism from './assets/projects/Space-tourism.png'
 import arrow from './assets/up-arrow.svg'
+import sun from './assets/sunny.png'
 
 
 function App() {
   return (
     <>
     <Navbar logo={logo}/>
-    <Hero />
+    <Hero sun={sun}/>
     <Skills illustrazione={illustrazione}/>
     <Progetti project1={screenBMW} project2={screenFoodiebox} project3={screenSpaceTourism} />
     <Contattami />

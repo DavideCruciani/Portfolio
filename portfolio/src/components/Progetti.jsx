@@ -1,8 +1,9 @@
 import React from 'react'
+import './Progetti.css'
 
 const Progetti = ({project1, project2, project3}) => {
   return (
-    <section className='bg-[url(src/assets/section3p.svg)] bg-no-repeat bg-cover min-h-screen w-full' id='progetti'>
+    <section className='projects-section bg-no-repeat bg-cover min-h-screen w-full' id='progetti'>
       <div className='container min-h-screen flex items-center mx-auto px-4'>
         <div className='w-full'>
           <h1 className='text-white text-5xl sm:text-6xl md:text-7xl text-center font-Marker pb-12 pt-20 xs:pt-48 md:pt-0 xl:pt-12'>I MIEI PROGETTI</h1>
