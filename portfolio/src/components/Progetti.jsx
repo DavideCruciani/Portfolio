@@ -1,13 +1,15 @@
 import React from 'react'
+import { useInView } from 'react-intersection-observer';
 import './Progetti.css'
 
 const Progetti = ({project1, project2, project3}) => {
+  const { ref: myRef, inView: myElementIsVisible } = useInView();
   return (
     <section className='projects-section bg-no-repeat bg-cover min-h-screen w-full' id='progetti'>
-      <div className='container min-h-screen flex items-center mx-auto px-4'>
+      <div ref={myRef} className={myElementIsVisible ? 'container min-h-screen flex items-center mx-auto px-4 opacity-100 blur-0 duration-[1s] delay-[250ms]' : 'container min-h-screen flex items-center mx-auto px-4 opacity-0 blur-[5px] bg-transparent'}>
         <div className='w-full'>
           <h1 className='text-white text-5xl sm:text-6xl md:text-7xl text-center font-Marker pb-12 pt-20 xs:pt-48 md:pt-0 xl:pt-12'>I MIEI PROGETTI</h1>
-          <div className='grid gap-6 grid-cols-1 grid-rows-4 md:grid-cols-2 md:grid-rows-2'>
+          <div className='grid gap-6 grid-cols-1 grid-rows-4 md:grid-cols-2 md:grid-rows-2 py-2'>
             {/* FIRST PROJECT */}
             <div className='max-w-[550px] mx-auto relative group'>
               <div className='absolute w-full h-full bg-[hsl(196,38%,17%)]/[.75] group-hover:opacity-100 opacity-0'>

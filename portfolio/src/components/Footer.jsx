@@ -9,10 +9,10 @@ const Footer = ({arrow}) => {
           <p className='text-white text-lg'>Website by <span className='font-Marker text-blue-500'>Davide Cruciani</span></p>
           <div className='flex gap-4'>
             <a href="https://github.com/DavideCruciani" target='_blank'>
-              <i class="devicon-github-original text-3xl" size></i>
+              <i className="devicon-github-original text-3xl"></i>
             </a>
             <a href="https://www.linkedin.com/in/davide-cruciani-7b696a270/" target='_blank'>
-              <i class="devicon-linkedin-plain colored text-3xl"></i>
+              <i className="devicon-linkedin-plain colored text-3xl"></i>
             </a>
           </div>
         </div>
