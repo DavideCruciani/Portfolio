@@ -8,9 +8,9 @@ import Footer from "./components/Footer"
 /* IMMAGINI */
 import logo from "./assets/logo.png"
 import illustrazione from './assets/Studying.svg'
-import screenBMW from './assets/projects/Homepage-BMW.png'
+import screenBMW from './assets/projects/Homepage-BMW.jpg'
 import screenFoodiebox from './assets/projects/Foodiebox.png'
-import screenSpaceTourism from './assets/projects/Space-tourism.png'
+import screenSpaceTourism from './assets/projects/Space-tourism.jpg'
 import screenCharles from './assets/projects/Charles-Webpage.png'
 import arrow from './assets/up-arrow.svg'
 
