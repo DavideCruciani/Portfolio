@@ -11,7 +11,7 @@ import illustrazione from './assets/Studying.svg'
 import screenBMW from './assets/projects/Homepage-BMW.jpg'
 import screenFoodiebox from './assets/projects/Foodiebox.png'
 import screenSpaceTourism from './assets/projects/Space-tourism.jpg'
-import screenCharles from './assets/projects/Charles-Webpage.png'
+import screenTracker from './assets/projects/geolocator.png'
 import arrow from './assets/up-arrow.svg'
 
 
@@ -21,7 +21,7 @@ function App() {
     <Navbar logo={logo}/>
     <Hero />
     <Skills illustrazione={illustrazione}/>
-    <Progetti project1={screenBMW} project2={screenFoodiebox} project3={screenSpaceTourism} project4={screenCharles}/>
+    <Progetti project1={screenBMW} project2={screenFoodiebox} project3={screenSpaceTourism} project4={screenTracker}/>
     <Contattami />
     <Footer arrow={arrow}/>
     </>
